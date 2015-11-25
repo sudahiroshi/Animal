@@ -2,7 +2,9 @@
  * 動物を取りまとめるクラス
  */
 public class Animal {
+	/** 鳴き声 */
 	String voice;
+	/** 名前 */
 	String name;
 
 	/**

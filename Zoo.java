@@ -2,7 +2,9 @@
  * Animalのインスタンスを蓄えるクラス
  */
 public class Zoo {
+	/** 動物を蓄える配列 */
 	private Animal[] cage;
+	/** 蓄えている動物の数 */
 	private int length = 0;
 
 	/**
