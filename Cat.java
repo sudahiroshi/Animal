@@ -13,7 +13,7 @@ public class Cat extends Animal {
 	/** 能力を返すメソッド
 	 * @return 能力
 	 */
-	String skill() {
+	public String skill() {
 		return "木登り";
 	}
 }
