@@ -1,8 +1,8 @@
 public class example1 {
 	public static void main( String[] args ) {
 		Animal animal1 = new Animal( "コンコン", "ゴンぎつね" );
-		Animal animal2 = new Dog( "ポチ" );
-		Animal animal3 = new Cat( "タマ" );
+		Dog animal2 = new Dog( "ポチ" );
+		Cat animal3 = new Cat( "タマ" );
 
 		System.out.println( "animal1の名前: " + animal1.getName() );
 		System.out.println( "animal1の鳴き声: " + animal1.bark() );
