@@ -9,4 +9,12 @@ public class Dog extends Animal {
 	Dog( String name ) {
 		super( "ワン", name );
 	}
+
+	/**
+	 * 能力を返すメソッド
+	 * @return 能力
+	 */
+	String skill() {
+		return "鼻が良い";
+	}
 }
